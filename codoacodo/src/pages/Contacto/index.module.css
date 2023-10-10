@@ -1,0 +1,55 @@
+.header {
+    background-image: url(../../../public/Assets/contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 600px;
+}
+
+.whatsappIcon {
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    padding: 1% 2%;
+    margin-left: 6%;
+    border-radius: 10px;
+    background-color: #287525;
+    transition: transform 0.2s ease-in-out;
+    /* Agregamos una transición */
+}
+
+
+
+.instagramIcon:hover {
+    transform: translateY(-5px);
+}
+
+.whatsappIcon:hover {
+    transform: translateY(-5px);
+}
+
+.linkedinIcon:hover {
+    transform: translateY(-5px);
+}
+
+.linkedinIcon {
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    padding: 1% 2%;
+    margin-left: 6%;
+    border-radius: 10px;
+    background-color: #0077B5;
+    transition: transform 0.2s ease-in-out;
+}
+
+.instagramIcon {
+    font-size: 30px;
+    color: white;
+    padding: 1% 2%;
+    margin-left: 6%;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #FCAF45, #833AB4);
+    border: 1px solid white;
+    transition: transform 0.2s ease-in-out;
+}
