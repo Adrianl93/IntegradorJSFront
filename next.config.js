@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  target: "serverless",
   images: {
-    domains: ['i.pinimg.com','digimon.shadowsmith.com'], // Agrega el dominio de la imagen aquí
+    unoptimized: true, // Agrega el dominio de la imagen aquí
   },
+  
+
 }
 
 module.exports = nextConfig
