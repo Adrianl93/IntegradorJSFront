@@ -1,8 +1,10 @@
 {
+  "homepage": "https://adrianl93.github.io/IntegradorJSFront/npm run deploy",
   "name": "bambu",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "deploy": "next build && next export && touch out/.nojekyll && gh-pages -d out",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -17,6 +19,7 @@
     "@heroicons/react": "^1.0.6",
     "autoprefixer": "10.4.15",
     "cloudflared": "^0.4.0",
+    "gh-pages": "^6.0.0",
     "lord-icon-element": "^4.1.1",
     "lottie-web": "^5.12.2",
     "next": "13.4.19",
