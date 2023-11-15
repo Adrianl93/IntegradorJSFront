@@ -1,0 +1,25 @@
+CREATE DATABASE integrador_cac;
+USE integrador_cac;
+
+CREATE TABLE oradores (
+    id_orador INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    Nombre VARCHAR(25),
+    Apellido VARCHAR(25),
+    Mail VARCHAR(25) UNIQUE,
+    Tema VARCHAR(25),
+    Fecha_Alta DATE
+);
+
+
+INSERT INTO oradores (Nombre, Apellido, Mail, Tema, Fecha_Alta)
+VALUES
+('Nombre1', 'Apellido1', 'mail1@example.com', 'Tema1', '2023-01-01'),
+('Nombre2', 'Apellido2', 'mail3@example.com', 'Tema2', '2023-02-02'),
+('Nombre3', 'Apellido3', 'mail4@example.com', 'Tema3', '2023-01-01'),
+('Nombre4', 'Apellido4', 'mail5@example.com', 'Tema4', '2023-02-02'),
+('Nombre5', 'Apellido5', 'mail6@example.com', 'Tema5', '2023-01-01'),
+('Nombre6', 'Apellido6', 'mail7@example.com', 'Tema6', '2023-02-02'),
+('Nombre7', 'Apellido7', 'mail8@example.com', 'Tema7', '2023-01-01'),
+('Nombre8', 'Apellido8', 'mail9@example.com', 'Tema8', '2023-02-02'),
+('Nombre9', 'Apellido9', 'mail10@example.com', 'Tema9', '2023-01-01'),
+('Nombre10', 'Apellido10', 'mail2@example.com', 'Tema10', '2023-02-02');
